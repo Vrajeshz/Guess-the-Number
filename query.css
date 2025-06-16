@@ -1,0 +1,89 @@
+/* Mobile styles */
+@media (max-width: 900px) {
+  html {
+    font-size: 55%;
+  }
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+    justify-content: flex-start;
+  }
+  .left,
+  .right {
+    width: 90vw;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+  }
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 2rem 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+    padding: 0 1rem;
+  }
+  .guess {
+    font-size: 3rem;
+    width: 18rem;
+    padding: 1.5rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+  }
+  .right {
+    font-size: 1.5rem;
+  }
+  .message {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+  header {
+    height: 25vh;
+    min-height: 18rem;
+  }
+  main {
+    padding: 0.5rem 0;
+  }
+  .left,
+  .right {
+    width: 98vw;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .number {
+    font-size: 2.5rem;
+    width: 7rem;
+    padding: 1rem 0;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .guess {
+    font-size: 2rem;
+    width: 12rem;
+    padding: 1rem;
+  }
+  .btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .right {
+    font-size: 1.1rem;
+  }
+  .message {
+    margin-bottom: 2rem;
+  }
+  .between,
+  .again {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
